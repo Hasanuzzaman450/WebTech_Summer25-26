@@ -1,0 +1,67 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:aquamarine;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color:aqua;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.profile {
+    width: 60%;
+    margin: auto;
+    background-color:cadetblue;
+    padding: 25px;
+    border: 2px solid ghostwhite;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px aqua (18, 19, 24, 0.1);
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 180px;
+    height: 180px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    border: 3px solid gray;
+}
+
+
+.profile h2 {
+    font-size: 2em;
+    margin: 10px 0;
+    color: skyblue;
+}
+
+
+.profile p {
+    font-size: 1.1em;
+    margin: 10px 0;
+    color: navy;
+    line-height: 1.6;
+}
+
+
+.bio {
+    font-size: 1em;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+footer {
+    background-color:gainsboro;
+    color: white;
+    padding: 15px;
+    font-size: 1em;
+    margin-top: 20px;
+}
