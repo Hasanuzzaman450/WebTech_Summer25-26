@@ -1,0 +1,36 @@
+body{
+    font-family: Arial;
+    background-color:white;
+    color:black;
+    text-align:center;
+    margin:0;
+    padding:20px;
+}
+
+.dark{
+    background-color:black;
+    color:white;
+}
+
+button{
+    padding:10px;
+    margin:5px;
+}
+
+.section{
+    margin-top:30px;
+}
+
+input, textarea{
+    width:300px;
+    padding:10px;
+}
+
+textarea{
+    height:100px;
+}
+
+#error{
+    color:red;
+    font-weight:bold;
+}

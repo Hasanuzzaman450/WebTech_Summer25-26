@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>Learing Dom</h1>
+      <p>This is basic of DOM</p>
+    </header>
+    <main>
+      <section class="card">
+        <h2>1. Toggle Dark Mode</h2>
+        <p>Click Here To Change The Mode</p>
+        <button id="theme-btn">🌙 Switch Theme</button>
+      </section>
+      <section class="card">
+        <h2>2. Click Counter</h2>
+        <p>Every Click = M</p>
+        <button id="couter-btn">Click Here</button>
+        <p>You clicked <span id="counter-txt">0</span> times</p>
+      </section>
+      <section class="card">
+        <h2>3. Live Text Preview</h2>
+        <p>Type something...........</p>
+        <input type="text" id="name-input" placeholder="Type your Name" />
+        <p>Hello <span id="name-preview">friend!</span></p>
+      </section>
+      <section class="card">
+        <h2>4. Show / Hide a Box</h2>
+        <button id="toggle-btn">Show/Hide Box</button>
+        <div id="secretBox" class="hidden-box">
+          <p>Suprisse! Mother Fucker</p>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

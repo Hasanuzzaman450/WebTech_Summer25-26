@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            padding: 30px;
+        }
+
+        #Switch {
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 id="Title">Light Mode</h1>
+
+    <button id="Switch" onclick="toggleMode()">Switch Mode</button>
+
+    <script>
+        function toggleMode() {
+            var body = document.body;
+            var title = document.getElementById("Title");
+            var button = document.getElementById("Switch");
+
+            if (body.style.backgroundColor === "black") {
+                body.style.backgroundColor = "white";
+                body.style.color = "black";
+                title.innerHTML = "Light Mode";
+                button.innerHTML = "Switch To Dark Mode";
+
+                alert("Light Mode Activated!");
+            }
+            else {
+                body.style.backgroundColor = "black";
+                body.style.color = "white";
+                title.innerHTML = "Dark Mode";
+                button.innerHTML = "Switch To Light Mode";
+
+                alert("Dark Mode Activated!");
+            }
+        }
+    </script>
+
+</body>
+</html>
